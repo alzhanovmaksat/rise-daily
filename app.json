@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Rise Daily",
+    "slug": "rise-daily-affirmations",
+    "version": "1.1.0",
+    "description": "Start each day with faith-based inspiration. Bible verses, motivational quotes, daily streaks, and category filtering.",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "scheme": "risedaily",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FF9A56"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.risedaily.affirmations",
+      "buildNumber": "1",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "remote-notification"
+        ],
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FF9A56"
+      },
+      "package": "com.risedaily.affirmations",
+      "permissions": [
+        "android.permission.POST_NOTIFICATIONS"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-notifications"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "008fb4be-955d-4560-994a-19e2a4b5d500"
+      }
+    }
+  }
+}
