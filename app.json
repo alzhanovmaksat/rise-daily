@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Rise Daily",
-    "slug": "rise-daily-affirmations",
+    "slug": "daily-affirmations-app",
     "version": "1.1.0",
     "description": "Start each day with faith-based inspiration. Bible verses, motivational quotes, daily streaks, and category filtering.",
     "orientation": "portrait",
